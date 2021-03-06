@@ -11,8 +11,8 @@ export const config = {
   // Set it to true if you have a Github app to add to this project
   // and fill the client ID & secret
   enableOAuth: true,
-  OAuthClientID: 'Iv1.9f40fd53257d4102',
-  OAuthSecret: 'fb6c64b25c3dd426763af53b84bc9b9cd3a081c1',
+  OAuthClientID: 'Iv1.aeb8150dc21a12bd',
+  OAuthSecret: '23d513feebc5ae787fb52c78035abef097305f51',
 
   // Your Personal Blog Title
   title : "Dunkbing" ,
