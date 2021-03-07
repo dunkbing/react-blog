@@ -11,7 +11,7 @@ const GithubCallback = () => {
 
   const authenticate = async (code) => {
     // Apparently we need to use a proxy to make this request (CORS blocked for client-side only applications)
-    const response = await fetch('https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token', {
+    const response = await fetch('https://github.com/login/oauth/access_token', {
       method: 'POST',
       body: new URLSearchParams({
         client_id: OAuthClientID,
